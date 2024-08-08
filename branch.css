@@ -1,0 +1,126 @@
+
+*{
+
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url("c.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+span {
+ color: palevioletred;
+
+
+}
+.navbar{
+    width: 1300px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:white;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4sease-in-out;
+
+}
+
+ul li A:hover{
+    color: palevioletred;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    margin-left: 5px;
+    color: palevioletred;
+    font-size: 75px;
+}
+
+
+h4{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 100px 14px 15px;
+    border:2px solid palevioletred;
+    outline: none;
+    border-radius: 30px;
+    top: 15px;
+}
+
+.newslatter form input:last-child{
+    position: relative;
+    display: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: palevioletred;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+
